@@ -1,0 +1,37 @@
+.real-temp{
+	font-size: 2rem;
+	text-align: center;
+}
+.out-pic{
+	width: 100%;
+}
+.in-pic{
+	width: 4rem;
+	margin: 0 auto;
+}
+.temp-img{
+	width: 100px;
+	height: 100px;
+}
+input{
+	border: none;
+}
+input:focus{
+	outline: none;
+}
+.btn, .btn:focus, .btn:visited, .btn:link, .btn:hover{
+	outline: none;
+	border: none;
+	border-radius: 0;
+}
+.img-icon{
+	width: 4rem;
+	height: 4rem;
+}
+.inner-con{
+	margin: 0 auto;
+}
+.inner-inner{
+	position: relative;
+	transform: translateY(25%);
+}
