@@ -1,3 +1,9 @@
+html, body{
+	width: 100%;
+}
+h1{
+	margin-top: 8rem;
+}
 .real-temp{
 	font-size: 2rem;
 	text-align: center;
@@ -15,6 +21,7 @@
 }
 input{
 	border: none;
+	font-size: 2rem;
 }
 input:focus{
 	outline: none;
@@ -23,6 +30,7 @@ input:focus{
 	outline: none;
 	border: none;
 	border-radius: 0;
+	font-size: 2rem;
 }
 .img-icon{
 	width: 4rem;
