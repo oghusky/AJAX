@@ -17,7 +17,7 @@ function getWeather(){
 	// access http request in a variable
 	const xhr = new XMLHttpRequest();
 	// url of API we are working with
-	const url = 'http://api.openweathermap.org/data/2.5/weather?zip='+ city +'&units=imperial&appid=5fd23d240fe6ff93cb60e9314a69f456';
+	const url = 'https://api.openweathermap.org/data/2.5/weather?zip='+ city +'&units=imperial&appid=5fd23d240fe6ff93cb60e9314a69f456';
 	// cycles thru ready states and consoles them
 	xhr.onreadystatechange = function(){
 		// makes sure input value is not empty
