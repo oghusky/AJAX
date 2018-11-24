@@ -34,7 +34,7 @@ function getWeather(){
 				console.log(obj.name);
 				tempIcon.textContent = obj.name + ", " + obj.sys.country;
 				iconCode = obj.weather[0].icon;
-				iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+				iconUrl = "https://openweathermap.org/img/w/" + iconCode + ".png";
 				tempImg.innerHTML = '<img src = "'+iconUrl+'" class="img-icon">';
 				setTimeout(clearInput, 10);
 				}else{
