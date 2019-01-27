@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="weather.css">
-	<title>AJAX Practice</title>
-</head>
-<body>
-	<h1 class="display-2 text-center">Weather App</h1>
-	<h4 id="date" class="text-center">
-		<span id="month"></span>/<span id="day"></span>/<span id="year"></span>
-	</h4>
-	
-	<div class="container">
-		<div class="inner-con col-md-8 col-sm-12">
-			<div class="inner-inner">
-				<input class="text-right pr-3 mb-3 col-md-12 col-sm-12" type="number" placeholder="Enter Zip Code" autofocus>
-				<button class="btn btn-block btn-lg btn-primary mb-3">SUBMIT</button>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="weather.css" />
+    <title>AJAX Practice</title>
+  </head>
+  <body>
+    <h1 class="display-2 text-center">Weather App</h1>
+    <h4 id="date" class="text-center">
+      <span id="month"></span>/<span id="day"></span>/<span id="year"></span>
+    </h4>
 
-				<h2 class="temp-icon text-center display-5"></h2>
-				<p class="real-temp"><span class="obj-text">--</span>&deg;</p>
-				<div class="out-pic">
-					<div class="in-pic">
-						<div class="temp-img img-fluid"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	
-	
-	<!-- Scripts -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<!-- <script src="index.js"></script> -->
-	<script src="index2.js"></script>
-</body>
+    <div class="container">
+      <div class="inner-con col-md-8 col-sm-12">
+        <div class="inner-inner">
+          <input
+            class="text-right pr-3 mb-3 col-md-12 col-sm-12"
+            type="number"
+            placeholder="Enter Zip Code"
+            autofocus
+          />
+          <button class="btn btn-block btn-lg btn-primary mb-3">SUBMIT</button>
+          <hr />
+          <table class="u-full-width">
+            <thead></thead>
+            <tr>
+              <td class="temp-img img-fluid">Icon</td>
+              <td class="temp-icon text-center display-5">City, Country</td>
+              <td class="real-temp">
+                Temp<span class="obj-text">&deg;</span>F
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="index2.js"></script>
+  </body>
 </html>
