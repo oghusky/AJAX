@@ -21,22 +21,28 @@
       <div class="inner-con col-md-8 col-sm-12">
         <div class="inner-inner">
           <input
-            class="text-right pr-3 mb-3 col-md-12 col-sm-12"
+            class="form-control text-right pr-3 mb-3 col-md-12 col-sm-12"
             type="number"
             placeholder="Enter Zip Code"
             autofocus
           />
-          <button class="btn btn-block btn-lg btn-primary mb-3">SUBMIT</button>
+          <button class="btn btn-block btn-primary">SUBMIT</button>
           <hr />
-          <table class="u-full-width">
-            <thead></thead>
-            <tr>
-              <td class="temp-img img-fluid">Icon</td>
-              <td class="temp-icon text-center display-5">City, Country</td>
-              <td class="real-temp">
-                Temp<span class="obj-text">&deg;</span>F
-              </td>
-            </tr>
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col-sm-4" class="text-center">Icon</th>
+                <th scope="col-sm-4" class="text-center">City, Country</th>
+                <th scope="col-sm-4" class="text-center">Temp(Fahrenheit)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="temp-img img-fluid"></td>
+                <td class="temp-icon text-center display-5"></td>
+                <td class="real-temp"><span class="obj-text"></span></td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
