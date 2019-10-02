@@ -1,56 +1,48 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
 html,
 body {
   width: 100%;
 }
-h1 {
-  margin-top: 3rem;
+body{
+  background-color: #ccc;
 }
-.container {
+
+.app-wrapper {
   width: 50%;
+  margin: 1rem auto;
+  background-color: #fafafa;
+  padding: .5rem;
 }
-.real-temp {
-  font-size: 1rem;
-  text-align: center;
+.form{
+  width: 80%;
+  margin: 1rem auto;
 }
-/* .out-pic {
-  width: 100%;
-}
-.in-pic {
-  width: 4rem;
-  margin: 0 auto;
-}
-.temp-img {
-  width: 100px;
-  height: 100px;
-} */
-input {
+.btn-primary{
   border: none;
-  font-size: 2rem;
-}
-input:focus {
   outline: none;
+  padding: .3rem;
+  width: 7rem;
 }
-.btn,
-.btn:focus,
-.btn:visited,
-.btn:link,
-.btn:hover {
-  outline: none;
-  border: none;
-  border-radius: 0;
-  font-size: 1rem;
+.btn-primary:focus{
+  outline:none !important;
+  border:transparent !important;
 }
-.img-icon {
-  width: 2rem;
-  height: 2rem;
-  display: block;
+.weather-container{
+  width: 80%;
   margin: 0 auto;
 }
-.inner-con {
-  display: block;
-  margin: 0 auto;
-}
-.inner-inner {
-  position: relative;
-  transform: translateY(25%);
+@media screen and (max-width: 768px){
+  body{
+    background-color: #fafafa;
+  }
+  .app-wrapper {
+    width: 100%;
+  }
+  .form, .weather-container{
+    width: 90%;
+  }
 }
