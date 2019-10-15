@@ -6,4 +6,6 @@
 ## How to use
 - Type a valid zip code into input and click on submit button
 - If user wants to see more information about the city's weather click the "SEE MORE" button
+## Link to Deployed App
+https://oghusky.github.io/AJAX_weather_app/
 
